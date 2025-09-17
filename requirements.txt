@@ -1,0 +1,9 @@
+# Worker-specific requirements (subset of app requirements)
+python-dotenv==1.1.1
+requests==2.32.5
+SQLAlchemy==2.0.43
+psycopg==3.2.10
+psycopg-binary==3.2.10
+google-genai==1.38.0
+# Optional if you use google-generativeai instead of google-genai
+# google-generativeai==0.8.5

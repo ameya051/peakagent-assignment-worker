@@ -1,0 +1,1 @@
+# Minimal package init for worker-local app modules

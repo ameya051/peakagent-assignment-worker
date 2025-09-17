@@ -1,0 +1,52 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files (keep an example committed)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+coverage.xml
+htmlcov/
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Databases (local dev)
+*.db
+*.sqlite3
+
+# Tox/Nox
+.tox/
+.nox/
